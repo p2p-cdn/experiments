@@ -1,0 +1,142 @@
+{
+    "VERSION": "v0.4.0", 
+    "curl": {
+        "ipad": {
+            "average": {
+                "time_appconnect": 0.11466666666666665, 
+                "time_connect": 0.044333333333333336, 
+                "time_namelookup": 0.02366666666666667, 
+                "time_pretransfer": 0.11499999999999999, 
+                "time_redirect": 0.0, 
+                "time_starttransfer": 0.18766666666666665, 
+                "total": 43.028
+            }, 
+            "samples": {
+                "time_appconnect": [
+                    0.113, 
+                    0.126, 
+                    0.105
+                ], 
+                "time_connect": [
+                    0.047, 
+                    0.046, 
+                    0.04
+                ], 
+                "time_namelookup": [
+                    0.024, 
+                    0.025, 
+                    0.022
+                ], 
+                "time_pretransfer": [
+                    0.113, 
+                    0.127, 
+                    0.105
+                ], 
+                "time_redirect": [
+                    0.0, 
+                    0.0, 
+                    0.0
+                ], 
+                "time_starttransfer": [
+                    0.135, 
+                    0.183, 
+                    0.245
+                ], 
+                "total": [
+                    45.263, 
+                    41.962, 
+                    41.859
+                ]
+            }
+        }, 
+        "iphone": {
+            "average": {
+                "time_appconnect": 0.09259999999999999, 
+                "time_connect": 0.031599999999999996, 
+                "time_namelookup": 0.0058, 
+                "time_pretransfer": 0.09259999999999999, 
+                "time_redirect": 0.0, 
+                "time_starttransfer": 0.1272, 
+                "total": 0.13140000000000002
+            }, 
+            "samples": {
+                "time_appconnect": [
+                    0.085, 
+                    0.09, 
+                    0.09, 
+                    0.098, 
+                    0.1
+                ], 
+                "time_connect": [
+                    0.033, 
+                    0.029, 
+                    0.028, 
+                    0.022, 
+                    0.046
+                ], 
+                "time_namelookup": [
+                    0.017, 
+                    0.003, 
+                    0.003, 
+                    0.003, 
+                    0.003
+                ], 
+                "time_pretransfer": [
+                    0.085, 
+                    0.09, 
+                    0.09, 
+                    0.098, 
+                    0.1
+                ], 
+                "time_redirect": [
+                    0.0, 
+                    0.0, 
+                    0.0, 
+                    0.0, 
+                    0.0
+                ], 
+                "time_starttransfer": [
+                    0.116, 
+                    0.116, 
+                    0.115, 
+                    0.164, 
+                    0.125
+                ], 
+                "total": [
+                    0.137, 
+                    0.116, 
+                    0.115, 
+                    0.164, 
+                    0.125
+                ]
+            }
+        }
+    }, 
+    "ipfs_residential": {
+        "ipad": {
+            "average": 3.0530000000000004, 
+            "gets": [
+                3.054, 
+                3.01, 
+                3.095
+            ], 
+            "tries": 3
+        }, 
+        "iphone": {
+            "average": 0.026899999999999997, 
+            "gets": [
+                0.025, 
+                0.023, 
+                0.037, 
+                0.028, 
+                0.026, 
+                0.026, 
+                0.03, 
+                0.023, 
+                0.026, 
+                0.025
+            ], 
+            "tries": 10
+        }
+    }
+}
